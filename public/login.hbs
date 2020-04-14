@@ -1,0 +1,13 @@
+<html>
+<body>
+<form method="post" action="/login">
+    <%if(flash){%>
+    <%=flash%>
+    <%}%>
+    <input type="email" name="email" required><br>
+    <input type="password" name="password" required>
+    <input type="submit" name="submit">
+
+</form>
+</body>
+</html>
